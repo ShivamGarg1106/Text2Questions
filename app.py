@@ -1,6 +1,6 @@
 from functions import *
 import streamlit as st
-st.title('Sentence2MCQ')
+st.title('True_False_sentence_generator')
 text = st.text_area("Text Block")
 cand_sents = get_candidate_sents(text)
 filter_quotes_and_questions = preprocess(cand_sents)
